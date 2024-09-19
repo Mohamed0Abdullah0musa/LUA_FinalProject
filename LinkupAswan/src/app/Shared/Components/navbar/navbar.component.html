@@ -1,0 +1,74 @@
+<!-- <p>navbar works!</p> -->
+<header class="navbar-light header-sticky">
+    <nav class="navbar navbar-expand-xl">
+        <div class="container">
+            <a class="navbar-brand" routerLink="/">
+                <img class="light-mode-item navbar-brand-item" src="logo2.jpeg" alt="logo" height="100">
+                <!-- <img class="dark-mode-item navbar-brand-item" src="logo.jpeg" alt="logo"> -->
+            </a>
+            <button class="navbar-toggler ms-auto ms-sm-0 p-0 p-sm-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-animation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <span class="d-none d-sm-inline-block small">Menu</span>
+            </button>
+            <button class="navbar-toggler ms-sm-auto mx-3 me-md-0 p-0 p-sm-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCategoryCollapse" aria-controls="navbarCategoryCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-grid-3x3-gap-fill fa-fw"></i><span
+                    class="d-none d-sm-inline-block small">Category</span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-nav-scroll me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="HotelsMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Hotels</a>
+                        <ul class="dropdown-menu" aria-labelledby="HotelsMenu">
+                            <li> <a class="dropdown-item" href="#">5 stars</a></li>
+                            <li> <a class="dropdown-item" href="#">Top rated</a></li>
+                            <li> <a class="dropdown-item" href="#">Low budget</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="ApartmentsMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Apartments</a>
+                        <ul class="dropdown-menu" aria-labelledby="ApartmentsMenu">
+                            <li> <a class="dropdown-item" href="#">On the corniche</a></li>
+                            <li> <a class="dropdown-item" href="#">Low budget</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="Toursmenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Tours</a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="#">Top Rated</a> </li>
+                            <li> <a class="dropdown-item" href="#">Specific Packages</a> </li>
+                            <li> <a class="dropdown-item" href="#">Full Packages</a> </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="CapMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Cap
+                        </a>
+                        <ul class="dropdown-menu min-w-auto" data-bs-popper="none">
+                            <li><a class="dropdown-item" href="#">One Way</a></li>
+                            <li><a class="dropdown-item" href="#">Round Trip</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse" id="navbarCategoryCollapse">
+                <ul class="navbar-nav navbar-nav-scroll nav-pills-primary-soft text-center ms-auto p-2 p-xl-0">
+                    <li class="nav-item"> <a class="nav-link active" routerLink="/about">About Us</a> </li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/contact">Contact</a> </li>
+                    <li class="nav-item"> <a class="nav-link" routerLink="/faq">FAQ</a> </li>
+                </ul>
+                <button class="btn btn-primary">Log in</button>
+            </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,166 @@
+/* Positioning and layout for the SVG container */
+.position-absolute {
+    position: absolute;
+}
+
+.top-100 {
+    top: 100%;
+}
+
+.start-100 {
+    left: 100%;
+}
+
+.translate-middle {
+    transform: translate(-50%, -50%);
+}
+
+/* Styling the SVG */
+.fill-warning {
+    fill: #ffc107;
+    /* Example color, can be adjusted */
+}
+
+/* Optionally adjust the size of the SVG */
+.svg-size {
+    width: 177.91px;
+    height: 132.35px;
+}
+
+/* Positioning and layout for the SVG container */
+.position-absolute {
+    position: absolute;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.start-0 {
+    left: 0;
+}
+
+.translate-middle {
+    transform: translate(-50%, -50%);
+}
+
+/* Styling the SVG */
+.fill-orange {
+    fill: #FFA500;
+    /* Orange color */
+}
+
+/* Optional: Adjust the size of the SVG if needed */
+.svg-size {
+    width: 250px;
+    height: 255px;
+}
+
+/* Optional: Custom rounded button class */
+.btn-round {
+    border-radius: 50px;
+}
+
+/* Optional: Adjust form control appearance */
+.form-control {
+    background-color: #f8f9fa;
+    /* Light background color */
+    color: #495057;
+    /* Dark text color */
+}
+
+/* Optional: Adjust button icon size */
+.btn i {
+    font-size: 1.2rem;
+    /* Increase icon size */
+}
+
+/* Custom styles for the section content */
+.bg-light h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.bg-light p {
+    font-size: 1.125rem;
+    color: #666;
+}
+
+.bg-light .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    /* Optional: make the breadcrumb background transparent */
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #007bff;
+    /* Bootstrap primary color */
+}
+
+.breadcrumb .breadcrumb-item.active {
+    color: #6c757d;
+    /* Bootstrap secondary color */
+}
+
+h1 {
+    font-size: 2.5rem;
+    /* Adjust font size for the main title */
+    margin-bottom: 20px;
+    /* Space below the title */
+}
+
+p {
+    font-size: 1.2rem;
+    /* Slightly larger font for info text */
+    margin-bottom: 30px;
+    /* Space below the paragraph */
+}
+
+.form-control-lg {
+    border-radius: 30px;
+    /* Make search input rounded */
+}
+
+button {
+    border-radius: 30px;
+    /* Make search button rounded */
+}
+
+.card-header[_ngcontent-ng-c3173172448] {
+    font-family: 'Cairo' !important;
+    font-weight: bold !important;
+}
+
+.fw-normal {
+    font-weight: bold !important;
+    font-size: 20px;
+    font-family: 'Cairo' !important;
+}
+
+.card-body[_ngcontent-ng-c3173172448] {
+    background-color: #ffffff;
+    font-weight: 400 !important;
+    font-size: 18px;
+    font-family: 'Cairo' !important;
+}

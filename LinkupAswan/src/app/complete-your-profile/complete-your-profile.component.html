@@ -1,0 +1,64 @@
+<h2 class="text-center">Personal Information</h2>
+
+    <div class="container my-5 col-7">
+        <form [formGroup]="completeProfileForm" (ngSubmit)="onSubmit()">
+            <div class="card-body">
+            <div class="card p-3">
+                <div class="form-group">
+                    <label for="profilePic">Upload your profile photo</label>
+                    <!-- <div class="profile-pic-container">
+                        <img src="path-to-default-pic.jpg" alt="Profile" class="profile-pic" />
+                        <input type="file" class="form-control"/>
+                    </div> -->
+                </div>
+
+                <div class="row">
+                <div class="form-group col-6">
+                    <label for="PhoneNumber">Phone Number</label>
+                    <input type="text" id="PhoneNumber" class="form-control" placeholder=" Phone Number" />
+                </div>
+
+                <div class="form-group">
+                    <label for="NationalFirstFaceimg">National First Face img</label>
+                    <input type="file" id="NationalFirstFaceimg" class="form-control"
+                        placeholder="National First Face img" />
+                </div>
+
+                <div class="form-group">
+                    <label for="National Second Face img">National Second Face img</label>
+                    <input type="file" id="National Second Face img" class="form-control"
+                        placeholder=" National Second Face img" />
+                </div>
+
+
+                <div class="form-group">
+                    <label for="profilimg">profilimg</label>
+                    <input type="file" id="profilimg" class="form-control" placeholder="profilimg" />
+                </div>
+
+
+                <div class=" col-md-6 mb-3">
+                    <label for="ServiceType">Service Type</label>
+                    <input type="text" id="ServiceType" class="form-control" placeholder="Service Type" />
+                </div>
+
+                <div class=" col-md-6 mb-3">
+                    <label for="Experiences">Experiences</label>
+                    <input type="text" id="Experiences" class="form-control" placeholder="experiences" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Description">Description</label>
+                    <textarea class="form-control" id="Description" rows="5"
+                        placeholder="Enter your Description here"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary col-6 mt-4 m-auto">Save Changes</button>
+            </div>
+        </div>
+        
+    </div>
+</form>
+    
+</div>
+
